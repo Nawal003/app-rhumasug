@@ -1,0 +1,18 @@
+
+<nav>
+    <img [src]="logo" class="logo" [routerLink]="['/']" />
+    <ul>
+        <li><a href routerLink='/'>Accueil</a></li>
+        <li><a href routerLink='/produits'>produits</a></li>
+        <li><a href routerLink='/profil'>Profil</a></li>
+        <li><a href routerLink='/connexion'>Connexion</a></li>
+        <li><a href routerLink='/panier'>Panier</a></li>
+        <!-- <li *ngIf="authServ.profil.statut > 0"><a href routerLink='/admin'>Admin</a></li>
+        <li *ngIf="!authServ.profil.statut"><a href routerLink='/connexion'>Connexion</a></li>
+        <li *ngIf="authServ.profil.statut > 0"><a href routerLink='/connexion'
+                (click)="authServ.deconnexion()">Déconnexion</a>
+        </li> -->
+
+
+    </ul>
+</nav>
